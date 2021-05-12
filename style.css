@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 section.container {
   width: 90vw;
   margin: 0 auto;
@@ -63,4 +66,48 @@ img.hero-right-image {
   top: 20px;
   right: -50px;
   width: 60%;
+}
+.part-two {
+  background-image: url("image-sec-one.png"), url("image-sec-two.png");
+  background-position: center;
+  height: 100vh;
+  margin: 0 -55px 0 -56px;
+  position: relative;
+  top: 100vh;
+  color: snow;
+}
+.part-two-top {
+  line-height: 44px;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  padding-top: 40px;
+}
+.part-two-middle {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+}
+.same {
+  width: 303px;
+  height: 340px;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 16px;
+}
+.same img {
+  margin-bottom: 25px;
+  margin-top: -9px;
+}
+.same p {
+  padding: 16px;
+}
+.part-two-lower {
+  position: absolute;
+  top: 90%;
+  left: 44%;
+}
+.part-two-lower a {
+  color: snow;
 }
