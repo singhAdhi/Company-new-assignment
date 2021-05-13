@@ -47,13 +47,15 @@ a:hover {
 }
 .navbar ul li {
   list-style-type: none;
-  padding-left: 30px;
+  padding-left: 20px;
   color: #7e4aa7;
   font-weight: 600;
 }
 .navbar ul {
   display: flex;
   padding: 50px;
+  position: relative;
+  left: 80px;
 }
 h1.navbar-head-text {
   font-size: 24px;
