@@ -15,7 +15,7 @@ header {
   z-index: 100;
   left: 0;
   right: 0;
-  padding: 0 80px;
+  padding: 0 60px;
 }
 section.container {
   width: 90vw;
@@ -38,7 +38,7 @@ a.link {
 a.btn {
   text-decoration: none;
   border: 1px solid;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 5px;
   color: snow;
   background-color: #7e4aa7;
@@ -78,9 +78,7 @@ h1.navbar-head-text {
   color: #7e4aa7;
 }
 .hero-left {
-  position: absolute;
-  left: 5px;
-  margin-top: 50%;
+  width: 45%;
 }
 .hero-left img {
   position: relative;
@@ -102,19 +100,17 @@ h4.hero-left-small-text {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+.hero-right {
+  width: 55%;
+}
 img.hero-right-image {
-  position: absolute;
-  top: 20px;
-  right: -50px;
-  width: 60%;
+  display: block;
+  width: 100%;
 }
 .part-two {
   background-image: url("image-sec-one.png"), url("image-sec-two.png");
   background-position: center;
-  height: 100vh;
-  margin: 0 -55px 0 -56px;
-  position: relative;
-  top: 100vh;
+
   color: snow;
 }
 img.part-two-img {
@@ -161,13 +157,10 @@ img.part-two-img {
 }
 section.our-process {
   position: relative;
-  height: 100vh;
-  top: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
+  align-items: center;
 }
 .left-our-process {
   position: absolute;
@@ -206,8 +199,10 @@ section.our-process {
   font-weight: 600;
 }
 .illustration img {
+  display: block;
   width: 80%;
-  padding-top: 85px;
+  margin: 0 auto;
+  padding-top: 80px;
 }
 .content a {
   position: absolute;
@@ -215,9 +210,6 @@ section.our-process {
   left: 45%;
 }
 .steps {
-  position: relative;
-  height: 100vh;
-  top: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -247,13 +239,13 @@ section.our-process {
   color: #7e4aa7;
   font-weight: 600;
 }
-.right-steps {
-  margin-right: -60px;
+.right-steps img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
 }
 .testimonial {
-  position: relative;
-  height: 90vh;
-  top: 100vh;
+  margin: 0 auto;
   left: 25%;
   display: flex;
   text-align: center;
@@ -331,10 +323,6 @@ section.our-process {
   margin-right: -300px;
 }
 footer {
-  position: relative;
-  top: 100vh;
-  height: 40vh;
-  margin: 0 -60px;
   background-position: center;
   background-image: url(footer.png), url(footer-mask.png);
   background-blend-mode: soft-light;
