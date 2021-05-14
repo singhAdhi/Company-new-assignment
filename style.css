@@ -361,13 +361,3 @@ footer {
   font-size: 18px;
   color: goldenrod;
 }
-@media (max-width: 600px) {
-  .hero {
-    display: flex;
-    flex-direction: column;
-    background-color: tomato;
-  }
-  header {
-    display: none;
-  }
-}
