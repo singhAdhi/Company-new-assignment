@@ -10,7 +10,6 @@ body {
 }
 header {
   width: 100vw;
-  margin-top: -20px;
   position: fixed;
   background: snow;
   z-index: 100;
@@ -33,7 +32,10 @@ nav.navbar {
   color: #7e4aa7;
   font-size: 16px;
 }
-a {
+a.link {
+  text-decoration: none;
+}
+a.btn {
   text-decoration: none;
   border: 1px solid;
   padding: 10px;
@@ -51,11 +53,12 @@ a:hover {
   color: #7e4aa7;
   font-weight: 600;
 }
+.navbar ul li:first-child {
+  padding-left: 0;
+}
 .navbar ul {
   display: flex;
-  padding: 50px;
-  position: relative;
-  left: 80px;
+  padding: 40px 0;
 }
 h1.navbar-head-text {
   font-size: 24px;
@@ -63,6 +66,7 @@ h1.navbar-head-text {
   line-height: 32px;
   letter-spacing: 2px !important;
 }
+
 .hero {
   display: flex;
   align-content: space-around;
@@ -368,4 +372,14 @@ footer {
   list-style-type: none;
   font-size: 18px;
   color: goldenrod;
+}
+@media (max-width: 600px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+  }
+  header {
+    display: none;
+  }
 }
